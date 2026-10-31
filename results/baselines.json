@@ -1,0 +1,44 @@
+{
+  "learned_s42": {
+    "model": "learned",
+    "r": 64,
+    "val_acc": 54.6,
+    "test_acc": 51.1
+  },
+  "nested_s42": {
+    "model": "nested",
+    "r": 64,
+    "val_acc": 57.1,
+    "test_acc": 54.0
+  },
+  "p3_r16_s42": {
+    "model": "p3",
+    "r": 16,
+    "val_acc": 56.2,
+    "test_acc": 46.3
+  },
+  "p3_r32_s42": {
+    "model": "p3",
+    "r": 32,
+    "val_acc": 55.9,
+    "test_acc": 47.3
+  },
+  "p3_r64_s42": {
+    "model": "p3",
+    "r": 64,
+    "val_acc": 55.2,
+    "test_acc": 53.3
+  },
+  "p3_r8_s42": {
+    "model": "p3",
+    "r": 8,
+    "val_acc": 52.7,
+    "test_acc": 45.7
+  },
+  "softmax_s42": {
+    "model": "softmax",
+    "r": 64,
+    "val_acc": 70.8,
+    "test_acc": 74.9
+  }
+}

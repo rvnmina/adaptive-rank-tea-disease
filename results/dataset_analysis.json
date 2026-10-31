@@ -1,0 +1,136 @@
+{
+  "dataset_name": "Tea leaf disease (professor's field data + pest images)",
+  "total_images": 2100,
+  "num_classes": 6,
+  "chance_accuracy_pct": 16.7,
+  "imbalance_ratio": 11.8,
+  "augmentation": "flips, +/-15 deg rotation, 8% translate, 0.9-1.1 scale, colour jitter",
+  "class_distribution": {
+    "Aphids": {
+      "count": 70,
+      "percentage": 3.3
+    },
+    "Blight": {
+      "count": 504,
+      "percentage": 24.0
+    },
+    "Healthy leaf": {
+      "count": 357,
+      "percentage": 17.0
+    },
+    "Helopeltis": {
+      "count": 529,
+      "percentage": 25.2
+    },
+    "Red spider mite": {
+      "count": 50,
+      "percentage": 2.4
+    },
+    "Red rust": {
+      "count": 590,
+      "percentage": 28.1
+    }
+  },
+  "image_statistics": {
+    "source_resolution": "3024x4032, 256x256, 3072x4096",
+    "resized_to": "96x96",
+    "colour_mode": "RGB",
+    "channels": 3,
+    "measured_mean_rgb": [
+      0.5643,
+      0.613,
+      0.4514
+    ],
+    "measured_std_rgb": [
+      0.1967,
+      0.1966,
+      0.2145
+    ],
+    "normalisation_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalisation_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "dtype": "uint8 in cache, float32 after normalisation"
+  },
+  "splits": {
+    "train": {
+      "count": 1470,
+      "per_class": {
+        "Aphids": 49,
+        "Blight": 353,
+        "Healthy leaf": 250,
+        "Helopeltis": 370,
+        "Red spider mite": 35,
+        "Red rust": 413
+      }
+    },
+    "val": {
+      "count": 315,
+      "per_class": {
+        "Aphids": 10,
+        "Blight": 76,
+        "Healthy leaf": 54,
+        "Helopeltis": 79,
+        "Red spider mite": 8,
+        "Red rust": 88
+      }
+    },
+    "test": {
+      "count": 315,
+      "per_class": {
+        "Aphids": 11,
+        "Blight": 75,
+        "Healthy leaf": 53,
+        "Helopeltis": 80,
+        "Red spider mite": 7,
+        "Red rust": 89
+      }
+    }
+  },
+  "patch_statistics": {
+    "image_size": 96,
+    "patch_size": 16,
+    "patches_per_image": 36,
+    "with_cls_token": 37,
+    "embed_dim": 64,
+    "patch_dim": "16 x 16 x 3 = 768 pixels, projected to d=64"
+  },
+  "model_input": {
+    "batch_shape": "[B, 3, 96, 96]",
+    "after_patching": "[B, 37, 64]",
+    "cls_token": "learnable, prepended as token 0",
+    "position_embedding": "learnable, added to all 37 tokens"
+  },
+  "difficulty_estimate": {
+    "Aphids": {
+      "difficulty": "medium",
+      "reason": "small soft-bodied insects, often clustered on the shoot tip; low contrast against young green leaves"
+    },
+    "Blight": {
+      "difficulty": "medium",
+      "reason": "brown lesions on leaf margins and tips; can resemble drought stress"
+    },
+    "Healthy leaf": {
+      "difficulty": "easy",
+      "reason": "no visible symptoms; baseline reference class"
+    },
+    "Helopeltis": {
+      "difficulty": "medium",
+      "reason": "discrete circular feeding marks; distinctive but variable severity"
+    },
+    "Red spider mite": {
+      "difficulty": "hard",
+      "reason": "damage is diffuse bronzing and stippling rather than a discrete lesion, so the symptom has no sharp boundary"
+    },
+    "Red rust": {
+      "difficulty": "easy",
+      "reason": "bright orange-red pustules on leaf underside; highly distinctive"
+    }
+  }
+}

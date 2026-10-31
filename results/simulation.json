@@ -1,0 +1,130 @@
+{
+  "model": "learned",
+  "assumed": {
+    "battery_Wh": 37.0,
+    "nJ_per_MAC": 1.0,
+    "active_W": 4.0,
+    "idle_W": 2.5
+  },
+  "measured": {
+    "accuracy_pct": {
+      "8": 53.81,
+      "16": 55.19,
+      "32": 55.0,
+      "64": 54.95
+    },
+    "cascade": {
+      "r_low": 8,
+      "r_high": 16,
+      "threshold": 0.8,
+      "accuracy": 55.2,
+      "escalation_rate": 98.1
+    }
+  },
+  "inference_mJ": {
+    "8": 5.153,
+    "16": 5.456,
+    "32": 6.062,
+    "64": 7.274
+  },
+  "periodic_30s": {
+    "fixed_r8": {
+      "images": 1687.156532369045,
+      "hours": 14.059637769742041,
+      "accuracy": 53.81,
+      "avg_rank": 8,
+      "joules_per_image": 75.001932288,
+      "inference_share_pct": 0.00687018033110651
+    },
+    "fixed_r16": {
+      "images": 1687.1539755193262,
+      "hours": 14.059616462661051,
+      "accuracy": 55.19,
+      "avg_rank": 16,
+      "joules_per_image": 75.002045952,
+      "inference_share_pct": 0.007274297561818064
+    },
+    "fixed_r32": {
+      "images": 1687.148861843138,
+      "hours": 14.059573848692816,
+      "accuracy": 55.0,
+      "avg_rank": 32,
+      "joules_per_image": 75.00227328,
+      "inference_share_pct": 0.008082528348666074
+    },
+    "fixed_r64": {
+      "images": 1687.1386345837564,
+      "hours": 14.059488621531303,
+      "accuracy": 54.95,
+      "avg_rank": 64,
+      "joules_per_image": 75.002727936,
+      "inference_share_pct": 0.009698975224217638
+    },
+    "adaptive": {
+      "images": 1687.152495247699,
+      "hours": 14.05960412706416,
+      "accuracy": 54.746841408562574,
+      "avg_rank": 20.631559401491117,
+      "joules_per_image": 75.00211175719599,
+      "inference_share_pct": 0.0075082586218826065
+    },
+    "cascade": {
+      "images": 1687.1113846564592,
+      "hours": 14.059261538803828,
+      "accuracy": 55.2,
+      "avg_rank": null,
+      "joules_per_image": 75.003939366912,
+      "inference_share_pct": 0.014005902250828007
+    }
+  },
+  "continuous": {
+    "fixed_r8": {
+      "images": 24557674.63235294,
+      "hours": 8.7875,
+      "accuracy": 53.81,
+      "avg_rank": 8,
+      "joules_per_image": 0.005152768,
+      "inference_share_pct": 99.99999999999999
+    },
+    "fixed_r16": {
+      "images": 23193359.374999996,
+      "hours": 8.7875,
+      "accuracy": 55.19,
+      "avg_rank": 16,
+      "joules_per_image": 0.0054558720000000005,
+      "inference_share_pct": 100.0
+    },
+    "fixed_r32": {
+      "images": 20874023.4375,
+      "hours": 8.7875,
+      "accuracy": 55.0,
+      "avg_rank": 32,
+      "joules_per_image": 0.00606208,
+      "inference_share_pct": 100.0
+    },
+    "fixed_r64": {
+      "images": 17395019.53125,
+      "hours": 8.7875,
+      "accuracy": 54.95,
+      "avg_rank": 64,
+      "joules_per_image": 0.007274496,
+      "inference_share_pct": 100.0
+    },
+    "adaptive": {
+      "images": 22575827.20588235,
+      "hours": 8.7875,
+      "accuracy": 54.72099236641222,
+      "avg_rank": 19.938931297709924,
+      "joules_per_image": 0.005605110229007634,
+      "inference_share_pct": 100.0
+    },
+    "cascade": {
+      "images": 12045717.258641584,
+      "hours": 8.7875,
+      "accuracy": 55.2,
+      "avg_rank": null,
+      "joules_per_image": 0.010504978432,
+      "inference_share_pct": 100.0
+    }
+  }
+}

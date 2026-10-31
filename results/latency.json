@@ -1,0 +1,94 @@
+{
+  "softmax": {
+    "median_ms": 0.585,
+    "macs_M": 5.551,
+    "speedup_vs_softmax": 1.0
+  },
+  "p3_r8": {
+    "median_ms": 0.657,
+    "macs_M": 5.153,
+    "speedup_vs_softmax": 0.89
+  },
+  "p3_r16": {
+    "median_ms": 0.658,
+    "macs_M": 5.456,
+    "speedup_vs_softmax": 0.89
+  },
+  "p3_r32": {
+    "median_ms": 0.668,
+    "macs_M": 6.062,
+    "speedup_vs_softmax": 0.88
+  },
+  "p3_r64": {
+    "median_ms": 0.69,
+    "macs_M": 7.274,
+    "speedup_vs_softmax": 0.85
+  },
+  "nested_r8": {
+    "median_ms": 0.707,
+    "macs_M": 5.153,
+    "speedup_vs_softmax": 0.83
+  },
+  "nested_r16": {
+    "median_ms": 0.704,
+    "macs_M": 5.456,
+    "speedup_vs_softmax": 0.83
+  },
+  "nested_r32": {
+    "median_ms": 0.717,
+    "macs_M": 6.062,
+    "speedup_vs_softmax": 0.82
+  },
+  "nested_r64": {
+    "median_ms": 0.742,
+    "macs_M": 7.274,
+    "speedup_vs_softmax": 0.79
+  },
+  "learned_r8": {
+    "median_ms": 0.701,
+    "macs_M": 5.153,
+    "speedup_vs_softmax": 0.83
+  },
+  "learned_r16": {
+    "median_ms": 0.703,
+    "macs_M": 5.456,
+    "speedup_vs_softmax": 0.83
+  },
+  "learned_r32": {
+    "median_ms": 0.714,
+    "macs_M": 6.062,
+    "speedup_vs_softmax": 0.82
+  },
+  "learned_r64": {
+    "median_ms": 0.736,
+    "macs_M": 7.274,
+    "speedup_vs_softmax": 0.8
+  },
+  "token_sweep": {
+    "37": {
+      "softmax": 0.058,
+      "r16": 0.0751,
+      "r64": 0.0846
+    },
+    "145": {
+      "softmax": 0.1188,
+      "r16": 0.1002,
+      "r64": 0.1278
+    },
+    "257": {
+      "softmax": 0.233,
+      "r16": 0.1275,
+      "r64": 0.1756
+    },
+    "577": {
+      "softmax": 1.8944,
+      "r16": 0.2114,
+      "r64": 0.3277
+    },
+    "1025": {
+      "softmax": 5.9321,
+      "r16": 0.3354,
+      "r64": 0.5553
+    }
+  }
+}

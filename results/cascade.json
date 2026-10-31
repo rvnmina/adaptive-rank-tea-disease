@@ -1,0 +1,51 @@
+{
+  "model": "learned",
+  "r_low": 8,
+  "r_high": 16,
+  "always_low": 53.81,
+  "always_high": 55.19,
+  "thresholds": {
+    "t0.5": {
+      "threshold": 0.5,
+      "accuracy": 54.1,
+      "escalation_rate": 50.3,
+      "avg_macs_M": 7.899,
+      "macs_vs_high_pct": 144.8
+    },
+    "t0.6": {
+      "threshold": 0.6,
+      "accuracy": 54.7,
+      "escalation_rate": 71.0,
+      "avg_macs_M": 9.026,
+      "macs_vs_high_pct": 165.4
+    },
+    "t0.7": {
+      "threshold": 0.7,
+      "accuracy": 55.1,
+      "escalation_rate": 90.5,
+      "avg_macs_M": 10.089,
+      "macs_vs_high_pct": 184.9
+    },
+    "t0.8": {
+      "threshold": 0.8,
+      "accuracy": 55.2,
+      "escalation_rate": 98.1,
+      "avg_macs_M": 10.507,
+      "macs_vs_high_pct": 192.6
+    },
+    "t0.9": {
+      "threshold": 0.9,
+      "accuracy": 55.2,
+      "escalation_rate": 100.0,
+      "avg_macs_M": 10.609,
+      "macs_vs_high_pct": 194.4
+    },
+    "t0.95": {
+      "threshold": 0.95,
+      "accuracy": 55.2,
+      "escalation_rate": 100.0,
+      "avg_macs_M": 10.609,
+      "macs_vs_high_pct": 194.4
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "examples": [
+    {
+      "image_index": 41,
+      "group": "clean",
+      "true_class": "Aphids",
+      "clutter": 0.142,
+      "confidence": {
+        "8": 0.448,
+        "16": 0.437,
+        "32": 0.452,
+        "64": 0.442
+      },
+      "correct_at": {
+        "8": false,
+        "16": true,
+        "32": false,
+        "64": false
+      },
+      "chosen_rank": 16,
+      "cascade_correct": true,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    },
+    {
+      "image_index": 37,
+      "group": "clean",
+      "true_class": "Aphids",
+      "clutter": 0.1477,
+      "confidence": {
+        "8": 0.477,
+        "16": 0.49,
+        "32": 0.505,
+        "64": 0.536
+      },
+      "correct_at": {
+        "8": false,
+        "16": false,
+        "32": false,
+        "64": false
+      },
+      "chosen_rank": 16,
+      "cascade_correct": false,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    },
+    {
+      "image_index": 49,
+      "group": "clean",
+      "true_class": "Aphids",
+      "clutter": 0.1529,
+      "confidence": {
+        "8": 0.632,
+        "16": 0.639,
+        "32": 0.522,
+        "64": 0.629
+      },
+      "correct_at": {
+        "8": false,
+        "16": false,
+        "32": false,
+        "64": false
+      },
+      "chosen_rank": 16,
+      "cascade_correct": false,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    },
+    {
+      "image_index": 1663,
+      "group": "cluttered",
+      "true_class": "Red_Rust",
+      "clutter": 0.7572,
+      "confidence": {
+        "8": 0.519,
+        "16": 0.546,
+        "32": 0.544,
+        "64": 0.573
+      },
+      "correct_at": {
+        "8": true,
+        "16": true,
+        "32": true,
+        "64": true
+      },
+      "chosen_rank": 16,
+      "cascade_correct": true,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    },
+    {
+      "image_index": 1683,
+      "group": "cluttered",
+      "true_class": "Red_Rust",
+      "clutter": 0.7717,
+      "confidence": {
+        "8": 0.588,
+        "16": 0.614,
+        "32": 0.607,
+        "64": 0.64
+      },
+      "correct_at": {
+        "8": false,
+        "16": true,
+        "32": true,
+        "64": true
+      },
+      "chosen_rank": 16,
+      "cascade_correct": true,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    },
+    {
+      "image_index": 33,
+      "group": "cluttered",
+      "true_class": "Aphids",
+      "clutter": 0.7757,
+      "confidence": {
+        "8": 0.369,
+        "16": 0.402,
+        "32": 0.392,
+        "64": 0.407
+      },
+      "correct_at": {
+        "8": false,
+        "16": false,
+        "32": false,
+        "64": false
+      },
+      "chosen_rank": 16,
+      "cascade_correct": false,
+      "macs_M": 10.609,
+      "energy_mJ": 10.609,
+      "energy_saved_vs_r64_pct": -45.8
+    }
+  ],
+  "summary": {
+    "model": "learned",
+    "threshold": 0.8,
+    "r_low": 8,
+    "r_high": 16,
+    "n_images": 2100,
+    "accepted_at_low_pct": 1.9,
+    "accepted_at_low_clean_half_pct": 3.7,
+    "accepted_at_low_cluttered_half_pct": 0.0,
+    "cascade_accuracy_pct": 55.2,
+    "energy_saved_vs_r64_pct": -44.4,
+    "spearman_clutter_vs_low_rank_confidence": -0.113
+  }
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "A": "learned r8",
+    "B": "nested r8",
+    "acc_A": 53.8,
+    "acc_B": 54.1,
+    "b": 193,
+    "c": 199,
+    "mcnemar_p": 0.8007,
+    "paired_t": -0.31,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r8",
+    "B": "p3 r8",
+    "acc_A": 53.8,
+    "acc_B": 47.5,
+    "b": 368,
+    "c": 236,
+    "mcnemar_p": 0.0,
+    "paired_t": 3.38,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "nested r8",
+    "B": "p3 r8",
+    "acc_A": 54.1,
+    "acc_B": 47.5,
+    "b": 387,
+    "c": 249,
+    "mcnemar_p": 0.0,
+    "paired_t": 3.41,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r16",
+    "B": "nested r16",
+    "acc_A": 55.2,
+    "acc_B": 54.4,
+    "b": 179,
+    "c": 163,
+    "mcnemar_p": 0.4173,
+    "paired_t": 0.68,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r16",
+    "B": "p3 r16",
+    "acc_A": 55.2,
+    "acc_B": 51.1,
+    "b": 323,
+    "c": 238,
+    "mcnemar_p": 0.0004,
+    "paired_t": 3.22,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "nested r16",
+    "B": "p3 r16",
+    "acc_A": 54.4,
+    "acc_B": 51.1,
+    "b": 327,
+    "c": 258,
+    "mcnemar_p": 0.0049,
+    "paired_t": 3.05,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r32",
+    "B": "nested r32",
+    "acc_A": 55.0,
+    "acc_B": 55.0,
+    "b": 168,
+    "c": 167,
+    "mcnemar_p": 1.0,
+    "paired_t": 0.02,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r32",
+    "B": "p3 r32",
+    "acc_A": 55.0,
+    "acc_B": 51.9,
+    "b": 253,
+    "c": 187,
+    "mcnemar_p": 0.0019,
+    "paired_t": 4.41,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "nested r32",
+    "B": "p3 r32",
+    "acc_A": 55.0,
+    "acc_B": 51.9,
+    "b": 239,
+    "c": 174,
+    "mcnemar_p": 0.0016,
+    "paired_t": 2.25,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r64",
+    "B": "nested r64",
+    "acc_A": 55.0,
+    "acc_B": 55.3,
+    "b": 183,
+    "c": 191,
+    "mcnemar_p": 0.7174,
+    "paired_t": -0.2,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "learned r64",
+    "B": "p3 r64",
+    "acc_A": 55.0,
+    "acc_B": 52.2,
+    "b": 276,
+    "c": 218,
+    "mcnemar_p": 0.0103,
+    "paired_t": 2.73,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "nested r64",
+    "B": "p3 r64",
+    "acc_A": 55.3,
+    "acc_B": 52.2,
+    "b": 293,
+    "c": 227,
+    "mcnemar_p": 0.0043,
+    "paired_t": 1.61,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "softmax",
+    "B": "learned r64",
+    "acc_A": 68.8,
+    "acc_B": 55.0,
+    "b": 462,
+    "c": 171,
+    "mcnemar_p": 0.0,
+    "paired_t": 27.12,
+    "paired_t_p": NaN
+  },
+  {
+    "A": "softmax",
+    "B": "learned r32",
+    "acc_A": 68.8,
+    "acc_B": 55.0,
+    "b": 445,
+    "c": 155,
+    "mcnemar_p": 0.0,
+    "paired_t": 55.9,
+    "paired_t_p": NaN
+  }
+]

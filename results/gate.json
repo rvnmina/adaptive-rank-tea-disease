@@ -1,0 +1,21 @@
+{
+  "model": "learned",
+  "levels": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "gate_params": 564,
+  "rank_distribution": {
+    "8": 1925,
+    "16": 2,
+    "32": 1,
+    "64": 172
+  },
+  "gated_accuracy": 54.2,
+  "avg_rank": 12.6,
+  "avg_macs_M": 5.327,
+  "macs_vs_r64_pct": 73.2,
+  "n_images": 2100
+}

@@ -1,0 +1,105 @@
+{
+  "T1": {
+    "claim": "T1: attention MACs = 4Nrd (bounded) vs 2N^2 d (softmax)",
+    "N": 37,
+    "d": 64,
+    "softmax_counted": 175232,
+    "softmax_formula": 175232,
+    "ranks": {
+      "r8": {
+        "counted": 75776,
+        "formula_4Nrd": 75776,
+        "cheaper_than_softmax": true
+      },
+      "r16": {
+        "counted": 151552,
+        "formula_4Nrd": 151552,
+        "cheaper_than_softmax": true
+      },
+      "r32": {
+        "counted": 303104,
+        "formula_4Nrd": 303104,
+        "cheaper_than_softmax": false
+      },
+      "r64": {
+        "counted": 606208,
+        "formula_4Nrd": 606208,
+        "cheaper_than_softmax": false
+      }
+    },
+    "crossover_rank_N_over_2": 18.5,
+    "holds": true
+  },
+  "T2": {
+    "claim": "T2: nested prefix consistency",
+    "frozen": true,
+    "learned": true,
+    "holds": true
+  },
+  "T3": {
+    "claim": "T3: softmax attention is low rank (90% energy rank < N/2)",
+    "N": 37,
+    "rank_for_90pct_energy_per_layer": [
+      2.7,
+      2.26,
+      2.08,
+      1.88
+    ],
+    "energy_in_top8_pct": 99.6,
+    "energy_in_top16_pct": 100.0,
+    "n_images": 2100,
+    "holds": true
+  },
+  "T4": {
+    "claim": "T4: sandwich loss L = CE(full) + CE(sub) + 0.5 KL(sub||full) converges",
+    "nested": {
+      "first_and_last_loss_per_fold": [
+        [
+          3.489,
+          2.45
+        ],
+        [
+          3.491,
+          2.473
+        ],
+        [
+          3.385,
+          2.472
+        ],
+        [
+          3.478,
+          2.438
+        ],
+        [
+          3.408,
+          2.474
+        ]
+      ]
+    },
+    "learned": {
+      "first_and_last_loss_per_fold": [
+        [
+          3.487,
+          2.43
+        ],
+        [
+          3.49,
+          2.496
+        ],
+        [
+          3.385,
+          2.461
+        ],
+        [
+          3.476,
+          2.417
+        ],
+        [
+          3.406,
+          2.476
+        ]
+      ]
+    },
+    "holds": true
+  }
+}
