@@ -119,8 +119,8 @@ Set the dataset path in `paths.py` before running. On a GPU server, run inside `
 
 | Period | Milestone |
 |---|---|
-| July 2026 | *: Literature survey and project proposal* |
-| August 2026 | *TData collection* |
+| July 2026 | *Literature survey* |
+| August 2026 | *Project proposal* |
 | September 2026 | *baseline P-3 reproduction* |
 | 16 October 2026 | Full package delivered: simulation, worked examples, field-trial protocol, paper draft |
 | 28 to 29 October 2026 | Learned-feature model developed; 2-class results |
